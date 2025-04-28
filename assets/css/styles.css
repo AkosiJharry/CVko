@@ -429,6 +429,7 @@ main {
   .certificate-gallery img:hover {
     transform: scale(1.03);
   }
+
 /* About Section */
 .about-section {
   display: flex;
@@ -437,70 +438,7 @@ main {
   background-color: #f4f4f9;
 }
 
-/* About Card Styling */
-.about-card {
-  background-color: #ffffff;
-  padding: 2rem;
-  border-radius: 12px;
-  width: 100%;
-  max-width: 600px; /* Adjust width to make the box smaller */
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1); /* Softer shadow for 3D effect */
-  color: #333;
-  line-height: 1.8;
-  border: 2px solid #9CAF88; /* Green border for visual appeal */
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  background-color: #fff;
-}
 
-/* Hover effect on the about card */
-.about-card:hover {
-  transform: translateY(-5px); /* Slight lift effect */
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); /* Darker shadow for hover effect */
-}
-
-/* Title of the Card */
-.about-card h2 {
-  font-size: 2rem;
-  color: #2c3e50;
-  margin-bottom: 1rem;
-  border-bottom: 2px solid #9CAF88;
-  padding-bottom: 0.5rem;
-  text-align: center;
-  display: inline-block;
-}
-
-/* Style for paragraphs inside the card */
-.about-card p {
-  font-size: 1.05rem;
-  margin: 1rem 0;
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-}
-
-/* Icon styling inside the paragraphs */
-.about-card i {
-  color: #9CAF88;
-  font-size: 1.2rem;
-}
-
-/* Links in the about card */
-.about-card a {
-  color: #1e88e5;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s ease;
-}
-
-.about-card a:hover {
-  color: #1565c0;
-}
-
-/* Styling for each info item in the About Me card */
-.about-card strong {
-  font-weight: 600;
-  color: #2c3e50;
-}
 
   /* Contact Section Styling */
 .contact {
@@ -646,4 +584,64 @@ main {
     font-size: 0.8rem;
     padding: 0.5rem 1rem;
   }
+}
+
+/* About Section */
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;     /* Align content to the left */
+  padding: 4rem 2rem;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.8;
+  width: 100%;                 /* Full width of the screen */
+  margin: 0;                   /* Remove auto margin */
+}
+
+/* Section Heading */
+.about-section h2 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  border-bottom: 3px solid #9CAF88;
+  padding-bottom: 0.5rem;
+  text-align: left;
+  width: 100%;
+}
+
+/* Paragraph Styles */
+.about-section p {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  text-align: left;
+}
+
+/* Icon Styling */
+.about-section i {
+  color: #9CAF88;
+  font-size: 1.3rem;
+  margin-top: 0.2rem;
+}
+
+/* Links */
+.about-section a {
+  color: #1e88e5;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.about-section a:hover {
+  color: #1565c0;
+}
+
+/* Emphasized Text */
+.about-section strong {
+  font-weight: 600;
+  color: #2c3e50;
 }
